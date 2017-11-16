@@ -18,5 +18,5 @@ Options:
                         输出文件名，默认为<目标域名>.txt
 ```
 比如：`python subDomainsBrute.py -t 10 baidu.com`
-
+![sample](./sample.png)
 如果想修改查询的DNS，可以修改dict/dns_servers.txt
