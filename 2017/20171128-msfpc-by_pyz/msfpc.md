@@ -38,7 +38,7 @@ msfpc <TYPE> (<DOMAIN/IP>) (<PORT>) (<CMD/MSF>) (<BIND/REVERSE>) (<STAGED/STAGEL
 + <BATCH/LOOP>
   + BATCH：生成尽可能多的组合
   + LOOP：生成其中一种
-+ <VERBOSE>：显示更多信息：type，size，md5和sha1
++ < VERBOSE>：显示更多信息：type，size，md5和sha1
 ## 简单使用实例
 1. 使用msfpc生成payload
 ```
@@ -59,6 +59,7 @@ msfconsole -q -r '/root/msf/windows-meterpreter-staged-reverse-tcp-443-exe.rc'
 ## 一点小插曲和个人评价
 看完所有参数后，最好奇的是find_port参数，执行后却发现
 ![Alt text](./1511873549693.png)
+
 Metaspolit不支持！！！
-个人觉得msfpc对新手挺友好的，虽然缺少了msfvenom的编码功能，命令行参数也差不多，但胜在能自动生成rc文件，在侦听时非常方便！
+<br/>个人觉得msfpc对新手挺友好的，虽然缺少了msfvenom的编码功能，命令行参数也差不多，但胜在能自动生成rc文件，在侦听时非常方便！
 
