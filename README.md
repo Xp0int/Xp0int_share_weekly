@@ -1,11 +1,12 @@
 # Xp0int_share_weekly
 
 ## Info
-* Weeekly share by Xp0int team!
+* Weekly share by Xp0int team!
 * Welcome to Star!
 
 ## Contents
-* [[2017] Readme ](/2017/README.md)
+* [[2017] ReadMe ](/2017/README.md)
+* [[2018] ReadMe](/2018/README.md)
 
 ## Connect us
 * Email: Xp0intjnu@gmail.com
